@@ -1,9 +1,16 @@
-# Prime Number Check in C
+# Prime Number Checker in C
 
-This is a simple C program to check whether a given number is a prime number or not. It uses a basic algorithm optimized by checking divisibility up to √n.
+A simple command-line program written in C to determine if a given positive integer is a prime number using an optimized √n check.
 
-## How to Run
+## 🔍 How It Works
+
+1. Prompts for user input (`num`).
+2. Excludes numbers ≤ 1.
+3. Checks divisibility from 2 up to √n.
+4. Prints whether it's prime or not.
+
+## 🏃‍♂️ How to Compile & Run
 
 ```bash
-gcc prime_check.c -o prime
-./prime
+gcc prime_check.c -o prime_check -lm
+./prime_check
